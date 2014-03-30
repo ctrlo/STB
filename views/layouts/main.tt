@@ -95,6 +95,9 @@
             <script type="text/javascript" src="/js/login.js"></script>
         [% END %]
 
+        <script type="text/javascript">
+            eval(jscode);
+        </script>
     </body>
 </html>
 

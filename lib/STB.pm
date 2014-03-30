@@ -40,9 +40,9 @@ get '/' => sub {
     $output;
 };
 
-any '/view' => sub {
+any '/request' => sub {
 
-    my $output  = template 'view' => {
+    my $output  = template 'request' => {
         messages    => session('messages'),
         user        => var('user'),
         page        => 'view'

@@ -32,8 +32,8 @@ plugins:
     default:
       dsn: dbi:mysql:database=scap;mysql_enable_utf8=1;host=localhost
       schema_class: STB::Schema
-      user: username
-      pass: pass
+      user: stb
+      pass: stb
       options:
         RaiseError: 1
         PrintError: 1
